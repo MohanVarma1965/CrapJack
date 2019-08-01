@@ -1,0 +1,14 @@
+import React from 'react';
+import './styles/app.css';
+import Layout from './components/Layout'
+
+
+function App() {
+    return (
+        <div>
+          <Layout />
+        </div>
+    );
+}
+
+export default App;

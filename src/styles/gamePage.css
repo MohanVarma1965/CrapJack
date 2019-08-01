@@ -1,0 +1,34 @@
+.mainContainer {
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    background: url("https://backgrounddownload.com/wp-content/uploads/2018/09/blackjack-table-background-7.jpg");
+    background-size: cover;
+    box-shadow: 10px 10px grey;
+    border-radius: 3rem;
+}
+
+.dealerHand {
+    background: url(https://omaharentalads.com/images/arms-clipart-2.png) no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    height: 126px;
+    width: 209px;
+    transform: rotate(6deg);
+    animation: 1s ease-out forwards;
+
+}
+
+.reveal:hover+.dealerHand {
+    animation-name: moveToRight;
+}
+
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        transform: translateX(+25rem);
+    }
+}
