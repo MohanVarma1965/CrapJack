@@ -1,7 +1,9 @@
 import React from 'react';
 
 export default () => (
-  <section className="expandCollapseContainer">
+
+    //The rules to know
+    <section className="expandCollapseContainer">
 
     <h2> How to play the game? </h2>
     <p> You don’t even need to work hard just find the right table, and win real money playing CRAPJACK online!</p>

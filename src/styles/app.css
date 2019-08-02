@@ -1,6 +1,7 @@
 /*******************************************************************/
 /*reset the styles to all the browsers*/
 
+/***************************************************/
 *, *::after, *::before {
     margin: 0;
     padding: 0;
@@ -46,15 +47,17 @@ body {
 
 
 /*******************************************/
-
+/*Title glow css*/
+/***************************************************/
 .glow {
     font-size: 8rem;
-    font-weight: 100;
+    font-weight: 200;
+    letter-spacing: 3rem;
     color: #fff;
     text-align: center;
-    -webkit-animation: glow 1s ease-in-out infinite alternate;
-    -moz-animation: glow 1s ease-in-out infinite alternate;
-    animation: glow 1s ease-in-out infinite alternate;
+    -webkit-animation: glow 0.2s ease-in-out infinite alternate;
+    -moz-animation: glow 0.2s ease-in-out infinite alternate;
+    animation: glow 0.2s ease-in-out infinite alternate;
 }
 
 @keyframes glow {
@@ -69,19 +72,20 @@ body {
 
 /*******************************************/
 
+
+/***************************************************/
+/*CSS for all buttons*/
+/***************************************************/
 .buttonContainer {
     margin: 4rem auto;
 }
 
-
 .myButton {
     min-width: 20rem;
     box-shadow: 0px 1px 0px 0px #fff6af;
-    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
-    background-color: #ffec64;
+    background: #ffec64 linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
     border-radius: 6px;
     border: 1px solid #ffaa22;
-    display: inline-block;
     cursor: pointer;
     color: #333333;
     font-size: 24px;
@@ -94,13 +98,11 @@ body {
     animation-name: moveFromLeft;
     animation-duration: 2.5s;
     animation-timing-function: ease-out;
-
 }
 
 .myButton:hover {
-    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
-    background-color: #ffab23;
+    background: #ffab23 linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
 }
 
 .myButton:active {
@@ -109,6 +111,8 @@ body {
 }
 
 
+/*********************************************/
+/*Expand collapse css*/
 /*********************************************/
 
 .expandCollapseContainer {
@@ -135,54 +139,3 @@ body {
 /*********************************************/
 
 
-
-/*******************************************************************/
-.congrats {
-    position: absolute;
-    text-align: center;
-    margin: 0 auto;
-    width: 70%;
-    font-weight: bold;
-    font-size: 4rem;
-    z-index: 200;
-    background: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8));
-    opacity: 0.8;
-    min-height: 232px;
-    padding: 4rem;
-    left: 0;
-    right: 0;
-    margin-top: 1rem;
-    border-radius: 1rem;
-    animation-name: moveFromLeft;
-    animation-duration: 2.5s;
-    animation-timing-function: ease-out;
-}
-
-.resultsFooter {
-    background: #9ce6a2;
-    opacity: 0.8;
-    border-radius: 1rem;
-    font-size: 2rem;
-    text-align: center;
-    padding: 3rem;
-    margin: 2.5rem;
-    animation-name: moveFromLeft;
-    animation-duration: 2s;
-    animation-timing-function: ease-out;
-}
-
-@keyframes moveFromLeft {
-    0% {
-        opacity: 0;
-        transform: translateX(-10rem);
-    }
-
-    70% {
-        opacity: 0.8;
-        transform: translateX(+2rem);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}

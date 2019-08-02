@@ -1,5 +1,6 @@
 import * as types from '../config/constants';
 
+//place holder for making a dummy axios call to service and updating the values
 export function storeResults(didUserWon) {
   return async (dispatch) => {
 

@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { userCardsRetrieved, dealerCardsRetrieved, deckID } from './retrievedCards';
 
+//Axios call to retrieve a new deck  and make another call to get the users cards
 export function retrieveUserCards(value) {
   return async (dispatch) => {
     try {
@@ -16,12 +17,13 @@ export function retrieveUserCards(value) {
       dispatch(deckID(response.data.deck_id));
       dispatch(userCardsRetrieved(drawCards.data.cards));
     } catch (error) {
-      /* dispatch(userCardsRetrieved(error));*/
-      //console.log(error);
+      /*dispatch(userCardsRetrieved(error));*/
+      console.log("Error message from server" + error);
     }
   };
 }
 
+//Axios call to get the dealers cards
 export function retrieveDealerCards(deckID) {
   return async (dispatch) => {
     try {
@@ -31,8 +33,8 @@ export function retrieveDealerCards(deckID) {
       });
       dispatch(dealerCardsRetrieved(drawCards.data.cards));
     } catch (error) {
-      /* dispatch(searchImageCallError(error));*/
-      //console.log(error);
+      /*dispatch(searchImageCallError(error));*/
+      console.log("Error message from server" + error);
     }
   };
 }

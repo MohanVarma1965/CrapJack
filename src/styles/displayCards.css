@@ -1,4 +1,7 @@
 
+/***************************************************/
+/*used to style the display component*/
+/***************************************************/
 .cardsContainer {
     display: flex;
     justify-content: center;
@@ -75,3 +78,5 @@
         transform: translateX(0);
     }
 }
+
+/***************************************************/

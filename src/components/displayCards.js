@@ -1,8 +1,10 @@
 import React from 'react';
-import '../styles/displayCards.css'
+import '../styles/displayCards.css';
 
+//Component to display the individual cards
 const displayCards = (props) => {
 
+  //individual image containers
   const cards = props.data.map(val => {
     return (
       <div className="cardsSubContainer">
@@ -10,7 +12,7 @@ const displayCards = (props) => {
       </div>
     );
   });
-
+  //when we have the back value from props as true show the back images
   const back = props.data.map(() => {
     return (
       <div className="cardsSubContainer">
@@ -22,7 +24,6 @@ const displayCards = (props) => {
   return (
     <div className="cardsContainer">{props.back? back : cards}</div>
   );
-
 };
 
 export default displayCards;

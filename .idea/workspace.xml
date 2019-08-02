@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d0390139-89e5-4210-89c9-0f789c3c5bdf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/getCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/getCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/retrievedCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/retrievedCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/storeResults.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/storeResults.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/displayCards.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/displayCards.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/viewRules.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/viewRules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/gamePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/gamePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/result.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/result.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/cardsRetrieved.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/cardsRetrieved.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/initialState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/initialState.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/displayCards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/displayCards.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/gamePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/gamePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/result.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/result.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/CrapJack.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Oqg4wsAfBBt7ffL64ZedlIMHwR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/reducers" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mohan\OneDrive\Desktop\theStarGroup\poker\CrapJack\src\reducers" />
+      <recent name="C:\Users\mohan\OneDrive\Desktop\theStarGroup\poker\CrapJack\src\store" />
+      <recent name="C:\Users\mohan\OneDrive\Desktop\theStarGroup\poker\CrapJack\src\actions" />
+      <recent name="C:\Users\mohan\OneDrive\Desktop\theStarGroup\poker\CrapJack\src\containers" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d0390139-89e5-4210-89c9-0f789c3c5bdf" name="Default Changelist" comment="" />
+      <created>1564710352998</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564710352998</updated>
+      <workItem from="1564710355258" duration="3363000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/containers/result.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

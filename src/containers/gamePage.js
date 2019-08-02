@@ -6,6 +6,8 @@ import DisplayCards from '../components/displayCards';
 import Result from './result';
 import '../styles/gamePage.css';
 
+
+//major component where the actual game resides
 class gamePage extends Component {
   constructor(props) {
     super(props);
@@ -16,6 +18,7 @@ class gamePage extends Component {
     };
   }
 
+  //make an axios call to get the dealer cards
   getDealerCards(e) {
     e.preventDefault();
     e.target.classList.add('hide');
@@ -23,6 +26,7 @@ class gamePage extends Component {
     this.props.actions.retrieveDealerCards(this.props.deckID);
   }
 
+  //make a axios call to retrieve a new deck and get the user cards
   getUserCards(e) {
     e.preventDefault();
     this.setState({ revealClicked: false });
