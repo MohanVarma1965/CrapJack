@@ -5,8 +5,18 @@
 *, *::after, *::before {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: cursive;
+  font-weight: 400;
+  color: black;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(https://static.parade.com/wp-content/uploads/2013/10/life-lessons-from-poker-ftr.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 html {
@@ -30,21 +40,6 @@ html {
     font-size: 75%
   }
 }
-
-body {
-  font-family: cursive;
-  font-weight: 400;
-  color: black;
-  height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(https://static.parade.com/wp-content/uploads/2013/10/life-lessons-from-poker-ftr.jpg);
-  background-size: cover;
-  background-position: top;
-}
-
-.hide {
-  display: none;
-}
-
 
 /*******************************************/
 /*Title glow css*/
@@ -119,8 +114,8 @@ body {
   text-align: center;
   background: #9ce6a2;
   opacity: 0.8;
-  width: 35%;
-  margin:0 auto;
+  width: 45%;
+  margin:0 auto 3rem;
 }
 
 .cardScoreContainer {

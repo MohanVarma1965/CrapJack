@@ -5,7 +5,6 @@ import { userCardsRetrieved, dealerCardsRetrieved, deckID } from './retrievedCar
 export function retrieveUserCards(value) {
   return async (dispatch) => {
     try {
-
       let response = await axios.get('https://deckofcardsapi.com/api/deck/new/shuffle/', {
         params: { deck_count: 1 },
         headers: {},
