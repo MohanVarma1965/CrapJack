@@ -1,14 +1,55 @@
 import React from 'react';
 import './styles/app.css';
-import Layout from './components/Layout'
+import ViewRules from "./components/viewRules";
+import GamePage from "./containers/gamePage";
+import { Collapse } from 'react-collapse';
 
+class App extends React.Component {
+    constructor(props) {
+        super(props);
+        this.toggle = this.toggle.bind(this);
+        this.startGame = this.startGame.bind(this);
+        this.state = {
+            opened: true,
+            isStartGameclicked: false,
+        };
+    }
 
-function App() {
-    return (
-        <div>
-          <Layout />
-        </div>
-    );
+    // to decide for expand collapse
+    toggle() {
+        this.setState({opened: !this.state.opened});
+    }
+
+    //to start the actual game
+    startGame() {
+        this.setState({isStartGameclicked: true});
+    }
+
+    //initial data that is displayed on the home page
+    initialContent() {
+        return (<div>
+            <div className="buttonContainer">
+                <button className="myButton" onClick={this.startGame}>Start Game</button>
+            </div>
+            <div className="buttonContainer">
+                <button className="myButton"
+                        onClick={this.toggle}>{this.state.opened ? "Collapse Rules" : "View Rules"}</button>
+            </div>
+            <Collapse isOpened={this.state.opened}>
+                <ViewRules/>
+            </Collapse>
+        </div>);
+    }
+
+    //render the major title and its contents
+    render() {
+        return (<div>
+            <div className="logoContainerGlow">
+                <h1 className="glow">CRAPJACK</h1>
+            </div>
+            {this.state.isStartGameclicked ? <GamePage/> : this.initialContent()}
+        </div>);
+    }
 }
 
 export default App;

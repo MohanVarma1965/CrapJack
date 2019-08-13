@@ -15,7 +15,7 @@ export const store = configureStore(initialState);
 
 ReactDOM.render(
     <Provider store={store}>
-        <App store={store}/>
+        <App />
     </Provider>
     , document.getElementById('root'));
 
