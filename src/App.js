@@ -1,5 +1,4 @@
 import React from 'react';
-import './styles/app.css';
 import ViewRules from "./components/viewRules";
 import GamePage from "./containers/gamePage";
 import { Collapse } from 'react-collapse';

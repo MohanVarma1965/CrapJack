@@ -1,13 +1,137 @@
-body {
+/*******************************************************************/
+/*reset the styles to all the browsers*/
+
+/***************************************************/
+*, *::after, *::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+html {
+  font-size: 62.5%
 }
+
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 56.25%
+  }
+}
+
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 50%
+  }
+}
+
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%
+  }
+}
+
+body {
+  font-family: cursive;
+  font-weight: 400;
+  color: black;
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 131, 0.8)), url(https://static.parade.com/wp-content/uploads/2013/10/life-lessons-from-poker-ftr.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.hide {
+  display: none;
+}
+
+
+/*******************************************/
+/*Title glow css*/
+/***************************************************/
+
+.glow {
+  font-size: 8rem;
+  font-weight: 200;
+  letter-spacing: 3rem;
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 0.2s ease-in-out infinite alternate;
+  -moz-animation: glow 0.2s ease-in-out infinite alternate;
+  animation: glow 0.2s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+/***************************************************/
+/*CSS for all buttons*/
+/***************************************************/
+.buttonContainer {
+  margin: 4rem auto;
+}
+
+.myButton {
+  min-width: 20rem;
+  box-shadow: 0px 1px 0px 0px #fff6af;
+  background: #ffec64 linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  cursor: pointer;
+  color: #333333;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 18px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  margin: 0 auto;
+  display: block;
+  animation-name: moveFromLeft;
+  animation-duration: 2.5s;
+  animation-timing-function: ease-out;
+}
+
+.myButton:hover {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64', GradientType=0);
+  background: #ffab23 linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+
+/*********************************************/
+/*Expand collapse css*/
+/*********************************************/
+
+.expandCollapseContainer {
+  font-size: 1.5rem;
+  padding: 1rem 8rem;
+  text-align: center;
+  background: #9ce6a2;
+  opacity: 0.8;
+  width: 35%;
+  margin:0 auto;
+}
+
+.cardScoreContainer {
+  overflow: hidden;
+  width: 431px;
+  margin: 0 auto;
+
+}
+
+.scoreImage {
+  width: 500px;
+}
+
+/*********************************************/
