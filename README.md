@@ -28,8 +28,8 @@ By default, the user hand is open the user can click on the reveal button to vie
 
 
 Once the user clicks on the reveal button the dealer’s score will also be shown and based on the rules the winner will be displayed.
-In the below case the winner is user; which will be shown will cool animations. 
+In the below case the winner is user; which will be shown with cool animations. 
 ![alt text](src/images/won.png)
 
-In the below case the winner is the dealer. If the user is busted it will be shown and all the cases were covered. 
+In the below case the winner is the dealer. All the other cases will be displayed. 
 ![alt text](src/images/busted.png)
